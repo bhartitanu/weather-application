@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: rgb(16, 56, 9);
+   font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.container
+{
+    height: 80vh;
+    width: 70vh;
+    background-color: rgb(163, 188, 137);
+    margin: 10vh auto;
+    border-radius: 15px;
+    box-shadow: 3px 5px 7px beige;
+    padding: 1rem;
+    border:1px solid green;
+}
+.container:hover{
+    height: 82vh;
+    width: 72vh;
+    background-color: rgb(174, 201, 147);
+    cursor: pointer;
+}
+.form-container{
+    height:10vh;
+    width:65vh;
+    margin: 0.5vh;
+    padding: 1rem;
+}
+input
+{
+    height: 2rem;
+    width: 85%;
+    border-color:  rgb(5, 136, 16);
+}
+input::placeholder{
+    text-align: center;
+    font-size: 1rem;
+}
+.form-container i{
+    font-size: 1rem;
+    padding: 0.4rem;
+    background-color: rgb(197, 252, 234);
+    border: none;
+}
+
+.city-container{
+    height:15vh;
+    width:70vh;
+}
+.city-container h2{
+    font-size: 6vh;
+    text-align: center;
+}
+.city-container h3
+{
+width: 40%;
+ font-size: 3vh;
+ text-align: center;
+ border: 1px   solid black;
+ margin: auto;
+ border:transparent;
+ border-radius: 7px;
+ background-color: rgb(181, 214, 149);
+ padding:2px;
+}
+.temp-container 
+{
+    height:20vh;
+    width:70vh;
+    padding: auto 0;
+}
+.weather-discription
+{
+    height: 4vh;
+    width: 50%;
+    font-size: 1.2rem;
+    margin:  0 auto;
+    text-align: center;
+}
+.temprature{
+    height:16vh;
+    width: 50%;
+    font-size: 5rem;
+    font-weight: 350;
+    text-align: center;
+    margin:auto;
+}
+.features-container{
+    height:25vh;
+    width:100%;
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-evenly;
+}
+.wind-info
+{
+    height: 25vh;
+    width: 30%;
+    background-color: rgb(213, 241, 213);
+    border-radius: 1rem;
+    text-align: center;
+}
+.humidity-info
+{
+    height: 25vh;
+    width: 30%;
+    background-color:rgb(213, 241, 213);
+    border-radius: 1rem;
+    text-align: center;
+}
+.Visibility-info
+{
+    height: 25vh;
+    width: 30%;
+    background-color:rgb(213, 241, 213);
+    border-radius: 1rem;
+    text-align: center;
+}
+.wind-info i{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 15px;
+
+}
+.humidity-info i{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 15px;
+
+}
+.Visibility-info i{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 15px;
+}
